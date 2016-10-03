@@ -1,0 +1,40 @@
+/*   <!-- NAVIGATION -->*/
+   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="ion-load-b"></i>  <span class="light">Jessica</span> Inocencio-Gray
+                </a>
+            </div>
+
+
+
+/*   <!-- NAVIGATION (JELLYKA SAINT-ANDREWS-QUEEN FONT)-->*/
+     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="brand">Jessica Inocencio</span> 
+                </a>
+            </div>
+
+/*   <!-- CSS FOR NAVIGATION (JELLYKA SAINT-ANDREWS-QUEEN FONT)-->*/
+.brand {
+    font-family: Jellyka, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.brand-icon {
+    font-family: Florals;
+    font-size: 30px;
+    text-transform: lowercase;
+    color: #614385;
+}

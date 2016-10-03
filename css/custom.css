@@ -1,0 +1,817 @@
+@font-face {
+  font-family: Florals;
+  src: url(../fonts/florals2.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Jellyka;
+  src: url(../fonts/jellyka_saint_andrews_queen.ttf) format("truetype");
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/* BASIC STYLE    ||---------------------------- */
+/*------------------------------------------------------------------------------------------------*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Quicksand,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a {
+    color: #42dca3;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+}
+
+.light {
+    font-weight: 400;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Heading Style   ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+ /*   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+}
+
+h3 {
+    letter-spacing: 10px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Spacer Styles   ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+
+.p-t-30 {
+    padding-top: 30px;
+}
+
+.p-t-60 {
+    padding-top: 60px;
+}
+
+.p-t-110 {
+    padding-top: 110px;
+}
+
+.p-b-60 {
+    padding-bottom: 60px;
+}
+
+.p-tb-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p-tb-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.p-l-60 {
+    padding-left: 60px;
+}
+
+.m-t-30 {
+    margin-top: 30px;
+}
+
+.m-t-60 {
+    margin-top: 60px;
+}
+
+.m-b-0 {
+    margin-bottom: 0;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.m-b-60 {
+    margin-bottom: 60px;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/* HEADER STYLE    ||---------------------------- */
+/*-----------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Navbar   ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+.light {
+    font-weight: 400;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #5C635F;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: #42dca3;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus {
+    outline: 0;
+    background-color: transparent;
+}
+
+
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #42dca3;
+}
+
+.fa-bars {
+    color: #5C635F;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Header   ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+#header-up {
+    color: #42dca3;
+    opacity: 0.6;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #614385; 
+    background: #614385;  /*fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #614385 , #516395);  /*Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #614385 , #516395);  /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../img/asanoha-400px.png");
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #614385;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #614385;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #42dca3;
+    background: rgba(255,255,255,.1);
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* SECTIONS   ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Global Section Styles   ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+section {
+    padding: 100px 0;
+    h2.section-heading {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+
+.section-heading {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat, Arial, sans-serif;
+    padding-top: 60px;
+    letter-spacing: 1.5px; 
+}
+
+h3.section-subheading {
+        font-size: 16px;
+        .serif-font;
+        text-transform: none;
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 75px;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*  About Section       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+#about {
+    color: #614385;
+    background-image: url("../img/asanoha-400px.png");
+}
+
+#about-row {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+#about-img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+#about-heading {
+    text-align: center;
+    font-family: Montserrat, Arial, sans-serif;
+    padding-top: 60px;
+    letter-spacing: 1.5px; 
+}
+
+.about-name {
+    color: #42dca3;
+    font-weight: bold;
+}
+
+.process-icons {
+    font-size: 40px;
+}
+
+.btn {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: none;
+    color: #fff;
+    background-color: #42dca3;
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+#about-btn:hover,
+#about-btn:focus {
+    color: #fff;
+    background: #614385;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Portfolio Grid Section       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+#portfolio {
+    background: white;
+    color: #5C635F;
+}
+
+#portfolio-intro {
+    font-size: 15px;
+    font-weight: 300;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+#portfolio .portfolio-item {
+    margin:0 0 15px;
+    right:0;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display:block;
+    position:relative;
+    max-width:400px;
+    margin:0 auto
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background:rgba(66,220,163,.9);
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:all ease .5s;
+    -webkit-transition:all ease .5s;
+    -moz-transition:all ease .5s}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity:1
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position:absolute;
+    width:100%;
+    height:20px;
+    font-size:20px;
+    text-align:center;
+    top:50%;
+    margin-top:-12px;
+    color:#fff
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top:-12px 
+}
+
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, 
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin:0
+}
+
+
+#portfolio .portfolio-item .portfolio-caption {
+    max-width:400px;margin:0 auto;
+    background-color:#fff;
+    text-align:center;
+    padding:25px
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    text-transform: none; 
+    font-family: "Roboto Condensed", Arial,sans-serif;
+    margin:0
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    font-family: Quicksand,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style:italic;
+    font-size:16px;
+    margin:0 
+}
+
+#portfolio * { 
+    z-index:2
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Portfolio Modal      ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+.portfolio-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.portfolio-modal .modal-content h2 {
+    color: #5C635F;
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    font-size: 15px;
+    color: #888;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    color: #5C635F;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+
+.btn-modal {
+    background: #42dca3;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Services Section       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+#services {
+    background: #f4f4f4;
+    color: #5C635F;;        
+}
+
+.services-heading {
+    color: #614385;
+}
+
+.services-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Testimonials Section       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+blockquote {
+    font-size:16px; 
+    padding:18px 20px 1px 20px;
+    margin-left:3px; 
+    margin-bottom:40px;
+    background:#f7f7f7;
+}   
+
+blockquote:before {
+    color: #5C635F;
+    font-size: 30px;
+    line-height: 0.5em;
+    margin-right: 0.27em;
+    content: "\f10d";
+    font-family: FontAwesome;
+    float:left;
+}
+
+#testimonials {
+    color: #5C635F;
+    background: #fff;
+}
+
+.testimonials-client {
+    color: #614385;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Contact Section       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+#contact {
+    background: #614385;
+}
+
+.social-icons {
+    font-size: 80px;
+    color: #fff;
+}
+
+.social-icons:hover,
+.social-icons:focus {
+    color: #42dca3;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Footer       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+#footer {
+    color: #8deac7;
+    background: #261a35;
+    padding: 0;
+}
+
+#footer p {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+/*================================================================================================
+/* ELEMENTS          ||---------------------------- */
+/*================================================================================================*/
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Icons        ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+
+.fa-circle {
+    color: #614385;
+}
+
+
+
+
+/*=================================================================================================
+/* MEDIA QUERIES         ||---------------------------- */
+/*================================================================================================*/
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Paragraphs       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+@media (min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Navbar        ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+@media (min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Header       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Section       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+@media (min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*  About Section       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+@media (max-width:768px) {
+    #about-row {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #about-heading {
+        font-size: 2rem;
+    }
+
+    #about-text {
+        text-align: justify;
+    }
+}
+
+
+@media (max-width: 991px) {
+    #about-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #about-text {
+        text-align: justify;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Portfolio Grid        ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+@media (min-width: 767px) {
+    #portfolio .portfolio-item { 
+        margin: 0 0 30px;
+    }
+}
+
+@media (min-width: 320px) {
+    #portfolio-intro { 
+        text-align: justify;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Services Section        ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+@media (min-width:320px) and (max-width: 480px) {
+    .services-text {
+        font-size: 1.5rem;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*  Contact Section      ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
